@@ -72,7 +72,8 @@
             <c:forEach items="${listStudents}" var="student">
                 <tr>
                     <td align="center">${student.id}</td>
-                    <td align="center"><a href="/studentdata/${student.id}" target="_blank">${student.firstName}</a></td>
+                    <td align="center"><a href="/studentdata/${student.id}" target="_blank">${student.firstName}</a>
+                    </td>
                     <td align="center">${student.lastName}</td>
                     <td align="center">${student.age}</td>
                     <td align="center">${student.email}</td>

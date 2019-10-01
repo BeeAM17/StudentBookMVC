@@ -1,7 +1,6 @@
 ﻿CREATE DATABASE "student_tracker";
 
 CREATE TABLE "students"
-
 (
  "id" SERIAL,
  "first_name"   VARCHAR(24) NOT NULL,
